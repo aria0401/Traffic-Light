@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.light_box {
+  background-color: black;
+  height: 28rem;
+  width: 15rem;
+  margin: 5rem;
+  opacity: 0.8;
+  display: grid;
+  align-content: space-evenly;
+}
+
+.light_box * {
+  background-color: #1c1721;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: #17bb17;
+}
+
+.light_off {
+  opacity: 0.2;
+}
